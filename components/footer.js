@@ -11,7 +11,7 @@ const Footer = () => {
             </section>
             <section className="grid grid-cols-4 gap-3">
                 <div>
-                    <Image src="/Seecondary Logo copy 2.svg" width={200} height={100} alt="tobams-group logo" />
+                    <Image src="/Seecondary Logo copy 2.svg" loading="eager" width={200} height={100} alt="tobams-group logo" />
                     <p>Tobams Group is an innovative consultancy firm reshaping the future of tech talent development in Africa,
                         specializing in talent acquisition, internships, and skill development with a global perspective.
                     </p>
@@ -81,6 +81,14 @@ const Footer = () => {
                     <div>
                         <Image src="/images/ic_round-phone.svg" width={24} height={24} alt="" />
                         <p>+447886600748</p>
+                    </div>
+                </div>
+                <div className="flex flex-row">
+                    <p>Copyright ⓒ Tobams Group, 2024. All rights reserved.</p>
+                    <div className="flex flex-row">
+                        <p>Terms and Conditions</p>
+                        <p>Privacy Policy</p>
+                        <p>Cookies Policy</p>
                     </div>
                 </div>
             </section>

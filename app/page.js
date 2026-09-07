@@ -1,9 +1,12 @@
+import Corporate from "@/components/coporate";
+import Learning from "@/components/learning";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <Learning />
+      <Corporate />
     </>
   );
 }
